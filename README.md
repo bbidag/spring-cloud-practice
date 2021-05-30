@@ -41,4 +41,12 @@ Spring API Gateway를 사용하면 Spring Webflux로 구현되어 있어, non bl
 특정 비즈니스 로직을 추가/수정시에 부담감이 커질수 밖에 없다. \
 \
 마이크로서비스는 그에 반해, 서비스들을 잘게 쪼개져 있기 때문에 \
-적은 코드 베이스 관리와 쉬운 배포, 장애 격리 같은 장점을 가질 수 있게 된다. 
+적은 코드 베이스 관리와 쉬운 배포, 장애 격리 같은 장점을 가질 수 있게 된다.\
+## ○ 개발 대상 모듈 경로
+1. [spring cloud eureka server](https://github.com/bbidag/spring-cloud-eureka-server)
+2. [spring cloud api gateway](https://github.com/bbidag/spring-cloud-api-gateway)
+3. [spring cloud config server](https://github.com/bbidag/spring-cloud-config-server)
+4. spring cloud microservice
+    - 그냥 A, B 같이 하면 재미없으니 고객 서비스, 물류 관리 서비스 라는 가상의 서비스를 만들었다.
+    - [microservice-customer](https://github.com/bbidag/spring-cloud-microservice-customer)
+    - [microservice-scm](https://github.com/bbidag/spring-cloud-microservice-scm)
