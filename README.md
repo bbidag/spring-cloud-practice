@@ -3,7 +3,7 @@
 ### 스프링 클라우드를 활용한 MSA 프로젝트 제작을 연습하기 위한 데모
 
 ## 프로젝트 구조
-![spring_cloud_project_architecture](image/spring_cloud_project_architecture.JPG)
+![spring_cloud_project_architecture](image/spring_cloud_project_architecture.jpg)
 
 여기서 클라이언트는 API를 사용할 수 있는 모든 사용자가 될 수 있겠다.
 
